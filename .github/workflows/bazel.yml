@@ -82,7 +82,7 @@ jobs:
       # on every CI run.
       - name: Restore bazel repository cache
         id: cache_bazel_repository_restore
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           path: |
             ~/.cache/bazel-repo-cache
@@ -226,7 +226,7 @@ jobs:
       - name: Save bazel repository cache
         if: always() && !cancelled() && steps.cache_bazel_repository_restore.outputs.cache-hit != 'true'
         continue-on-error: true
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@v6
         with:
           path: |
             ~/.cache/bazel-repo-cache
