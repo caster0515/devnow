@@ -405,7 +405,7 @@ name = "app_test_support"
 version = "0.0.0"
 dependencies = [
  "anyhow",
- "base64 0.22.1",
+ "base64 0.23.1",
  "chrono",
  "codex-app-server-protocol",
  "codex-core",
@@ -851,6 +851,12 @@ name = "base64"
 version = "0.22.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6"
+
+[[package]]
+name = "base64"
+version = "0.23.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ac07cdecf99051d9a5238b80f35af32cdeba5b336e55d957b318b50137e18da5"
 
 [[package]]
 name = "base64ct"
@@ -1396,7 +1402,7 @@ dependencies = [
  "app_test_support",
  "async-trait",
  "axum",
- "base64 0.22.1",
+ "base64 0.23.1",
  "chrono",
  "clap",
  "codex-app-server-protocol",
@@ -1691,7 +1697,7 @@ name = "codex-cloud-requirements"
 version = "0.0.0"
 dependencies = [
  "async-trait",
- "base64 0.22.1",
+ "base64 0.23.1",
  "chrono",
  "codex-backend-client",
  "codex-core",
@@ -1715,7 +1721,7 @@ version = "0.0.0"
 dependencies = [
  "anyhow",
  "async-trait",
- "base64 0.22.1",
+ "base64 0.23.1",
  "chrono",
  "clap",
  "codex-client",
@@ -1815,7 +1821,7 @@ dependencies = [
  "assert_matches",
  "async-channel",
  "async-trait",
- "base64 0.22.1",
+ "base64 0.23.1",
  "bm25",
  "chardetng",
  "chrono",
@@ -2015,7 +2021,7 @@ dependencies = [
  "anyhow",
  "arc-swap",
  "async-trait",
- "base64 0.22.1",
+ "base64 0.23.1",
  "clap",
  "codex-app-server-protocol",
  "codex-utils-absolute-path",
@@ -2216,7 +2222,7 @@ version = "0.0.0"
 dependencies = [
  "anyhow",
  "async-trait",
- "base64 0.22.1",
+ "base64 0.23.1",
  "chrono",
  "codex-app-server-protocol",
  "codex-client",
@@ -2501,7 +2507,7 @@ version = "0.0.0"
 dependencies = [
  "age",
  "anyhow",
- "base64 0.22.1",
+ "base64 0.23.1",
  "codex-git-utils",
  "codex-keyring-store",
  "keyring",
@@ -2521,7 +2527,7 @@ name = "codex-shell-command"
 version = "0.0.0"
 dependencies = [
  "anyhow",
- "base64 0.22.1",
+ "base64 0.23.1",
  "codex-protocol",
  "codex-utils-absolute-path",
  "once_cell",
@@ -2625,7 +2631,7 @@ dependencies = [
  "anyhow",
  "arboard",
  "assert_matches",
- "base64 0.22.1",
+ "base64 0.23.1",
  "chrono",
  "clap",
  "codex-ansi-escape",
@@ -2721,7 +2727,7 @@ dependencies = [
  "anyhow",
  "arboard",
  "assert_matches",
- "base64 0.22.1",
+ "base64 0.23.1",
  "chrono",
  "clap",
  "codex-ansi-escape",
@@ -2878,7 +2884,7 @@ dependencies = [
 name = "codex-utils-image"
 version = "0.0.0"
 dependencies = [
- "base64 0.22.1",
+ "base64 0.23.1",
  "codex-utils-cache",
  "image",
  "mime_guess",
@@ -3021,7 +3027,7 @@ name = "codex-windows-sandbox"
 version = "0.0.0"
 dependencies = [
  "anyhow",
- "base64 0.22.1",
+ "base64 0.23.1",
  "chrono",
  "codex-protocol",
  "codex-utils-absolute-path",
@@ -3236,7 +3242,7 @@ version = "0.0.0"
 dependencies = [
  "anyhow",
  "assert_cmd",
- "base64 0.22.1",
+ "base64 0.23.1",
  "codex-arg0",
  "codex-core",
  "codex-exec-server",
@@ -6535,7 +6541,7 @@ version = "5.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "51e219e79014df21a225b1860a479e2dcd7cbd9130f4defd4bd0e191ea31d67d"
 dependencies = [
- "base64 0.22.1",
+ "base64 0.21.7",
  "chrono",
  "getrandom 0.2.17",
  "http 1.4.0",
